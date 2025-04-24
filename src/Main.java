@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//sc = scanner / choose = 사용자가 선택한 주문 / total=사용자가 선택한 음식 총합 가격
+//sc = scanner / choose = 사용자가 선택한 주문 / total=사용자가 선택한 음식 총합 가격/
 
 public class Main {
     public static void main(String[] args) {
