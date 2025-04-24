@@ -13,12 +13,12 @@ public class Main {
         //사용자 시점 인터페이스
         System.out.println("Menu");
         System.out.println("주메뉴");
-        System.out.println("1) 구운 치킨 / 14,000w / 노릇하게 구운 치킨");
-        System.out.println("2) 튀긴 치킨 / 14,000w / 바삭하게 튀긴 치킨");
+        System.out.println("1) 구운 치킨 | 14,000w | 노릇하게 구운 치킨");
+        System.out.println("2) 튀긴 치킨 | 14,000w | 바삭하게 튀긴 치킨");
         System.out.println("사이드");
-        System.out.println("3) 구운 감자 / 3,000w / 노릇하게 구운 감자");
-        System.out.println("4) 감자튀김 / 3,000w / 바삭하게 튀긴 감자");
-        System.out.println("5) 음료 / 2,000w / 시원한 탄산 음료수");
+        System.out.println("3) 구운 감자 | 3,000w | 노릇하게 구운 감자");
+        System.out.println("4) 감자튀김 | 3,000w | 바삭하게 튀긴 감자");
+        System.out.println("5) 음료 | 2,000w | 시원한 탄산 음료수");
         System.out.println("6) 종료");
         System.out.println();
 
