@@ -4,9 +4,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         //클래스 호출
-        Menuitem Mi=new Menuitem();
-        Kiosk ki=new Kiosk();
-        Menu mn=new Menu();
         Scanner sc = new Scanner(System.in);
 
 
@@ -16,8 +13,10 @@ public class Main {
         String more;
 
 
-        //사용자 시점 인터페이스
-        Mi.printMenu();
+        System.out.println("메뉴");
+        for (MenuItem food : MenuItem.menuList)
+            System.out.printf("%d) %s | %d | %s\n",food.mnum,food.mname,food.mprice,food. mintro);
+        System.out.println("6) 종료");
 
         //사용자가 선택한 음식의 종류에 따른 계산 반복
          do {
