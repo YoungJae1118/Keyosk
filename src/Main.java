@@ -48,12 +48,5 @@ public class Main {
              }
          } while(choose!=6);
 
-
-
-
-
-//
-
-
     }
 }

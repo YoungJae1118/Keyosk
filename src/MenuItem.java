@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class MenuItem {
 
 
+
         //속성 mnam=메뉴 이름, munm=메뉴 번호,mprice=메뉴 가격,mintro=메뉴 설명
         String mname,mintro;
         int mnum,mprice;
