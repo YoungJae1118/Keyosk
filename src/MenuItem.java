@@ -3,20 +3,16 @@ import java.util.ArrayList;
 
 public class MenuItem {
 
+String mname,mintro;
+int mnum,mprice;
 
+public MenuItem(int mnum,String mname,int mprice,String mintro){
+        this.mnum=mnum;
+        this.mname=mname;
+        this.mprice=mprice;
+        this.mintro=mintro;
 
-        //속성 mnam=메뉴 이름, munm=메뉴 번호,mprice=메뉴 가격,mintro=메뉴 설명
-        String mname,mintro;
-        int mnum,mprice;
-
-
-        //생성자
-        public MenuItem(int num, String name, int price, String intro) {
-                this.mnum = num;
-                this.mintro=intro;
-                this.mname=name;
-                this.mprice=price;
-        }
+}
 
 
         static List<MenuItem> menuList = new ArrayList<>();
